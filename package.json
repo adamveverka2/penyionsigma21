@@ -1,9 +1,10 @@
 {
-  "name": "git3",
+  "name": "pension-eleventy",
   "version": "1.0.0",
+  "description": "Povinný úkol.",
   "main": "index.js",
-  "type": "module",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
     "start": "eleventy --serve",
     "prebuild": "del-cli ./_site",
     "build": "eleventy"
@@ -11,9 +12,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "type": "module",
   "dependencies": {
     "@11ty/eleventy": "^3.0.0"
-  },
-  "description": ""
+  }
 }
-
